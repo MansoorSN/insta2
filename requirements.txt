@@ -2,3 +2,4 @@ streamlit
 instagrapi
 pandas
 requests
+AccountMixin
