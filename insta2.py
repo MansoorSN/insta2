@@ -6,5 +6,7 @@ cl.login("mansoords200", "Ottawa_22")
 
 post_url=st.text_input("Paste the insta url")
 
-
 post_id=cl.media_pk_from_url(post_url)
+
+if st.button:
+  cl.photo_download(post_id)
